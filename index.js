@@ -1,8 +1,14 @@
+
 const appCxt = require("express");
+
 const path = require('path');
+
 const bodyParser = require('body-parser');
+
 const myConnDb = require('./database/database');
+
 const perguntaModel = require('./database/Pergunta');
+
 app = appCxt();
 
 myConnDb
